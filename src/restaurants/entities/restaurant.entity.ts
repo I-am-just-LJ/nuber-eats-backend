@@ -5,6 +5,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 @Entity()
 export class Restaurant {
   @PrimaryGeneratedColumn()
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   @Field((type) => Number)
   id: number;
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
